@@ -1,4 +1,7 @@
+
+
 class MyCustomException extends Exception {
+
     public MyCustomException(String message) {
     
         super(message
@@ -7,6 +10,7 @@ class MyCustomException extends Exception {
 }
 
 public class CustomExceptionExample {
+
     public static void main(String[] args) {
     
         try {
